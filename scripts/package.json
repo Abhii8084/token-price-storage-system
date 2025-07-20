@@ -1,0 +1,25 @@
+{
+  "name": "enhanced-token-price-api",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Enhanced Node.js API with interpolation engine and batch processing",
+  "main": "enhanced-server.js",
+  "scripts": {
+    "start": "node enhanced-server.js",
+    "dev": "nodemon enhanced-server.js",
+    "test": "node ../scripts/simple-env-test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "redis": "^4.6.0",
+    "mongodb": "^6.0.0",
+    "alchemy-sdk": "^3.0.0",
+    "bullmq": "^4.0.0",
+    "node-cron": "^3.0.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

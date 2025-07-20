@@ -1,0 +1,23 @@
+{
+  "name": "token-price-storage-with-env",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Token price storage system with comprehensive environment configuration",
+  "main": "updated-storage-manager.js",
+  "scripts": {
+    "start": "node updated-storage-manager.js",
+    "test": "node env-test.js",
+    "config": "node env-test.js",
+    "dev": "NODE_ENV=development node updated-storage-manager.js",
+    "prod": "NODE_ENV=production node updated-storage-manager.js"
+  },
+  "dependencies": {
+    "redis": "^4.6.0",
+    "mongodb": "^6.0.0",
+    "node-cron": "^3.0.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "token-price-storage-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Comprehensive storage system with Redis and MongoDB",
+  "main": "storage-manager.js",
+  "scripts": {
+    "test": "node storage-test.js",
+    "start": "node storage-manager.js"
+  },
+  "dependencies": {
+    "redis": "^4.6.0",
+    "mongodb": "^6.0.0",
+    "node-cron": "^3.0.0"
+  }
+}
